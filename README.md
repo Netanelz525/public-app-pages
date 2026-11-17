@@ -21,12 +21,12 @@ Copy `apps/_template/` to `apps/<app-slug>/`, then replace every `TODO` before p
 
 The public repository is [Netanelz525/public-app-pages](https://github.com/Netanelz525/public-app-pages); the `main` branch is pushed. K Podcast's public support contact has been added. Enable **Settings → Pages → Deploy from a branch → main → /(root)** after reviewing the app-specific pages. The generic files in `apps/_template/` intentionally contain `TODO` markers and must be replaced when copied for another app. GitHub Pages uses HTTPS on its `github.io` domain.
 
-After Pages is enabled and the site is reachable, the K Podcast page URLs are expected to be:
+GitHub Pages is enabled, and both K Podcast URLs were verified over HTTPS:
 
 - `https://netanelz525.github.io/public-app-pages/apps/k-podcast/privacy.html`
 - `https://netanelz525.github.io/public-app-pages/apps/k-podcast/support.html`
 
-These addresses are not live until Pages is enabled and GitHub finishes deploying. Confirm both load over HTTPS before using them in App Store Connect. A custom domain is optional.
+The pages can now be entered in App Store Connect. Recheck them after future edits. A custom domain is optional.
 
 ## Publishing checklist
 
@@ -36,4 +36,4 @@ These addresses are not live until Pages is enabled and GitHub finishes deployin
 - Ensure the repository contains no tokens, private URLs, personal information that was not intentionally made public, or unlicensed app content.
 - Publish and confirm both policy and support URLs load over HTTPS before entering them in App Store Connect.
 
-K Podcast's pages include the selected public support contact. Recheck all privacy statements against the submitted build before entering the live URLs in App Store Connect.
+K Podcast's pages include the selected public support contact. Recheck all privacy statements against the submitted build before using the URLs for a new app version.
