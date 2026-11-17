@@ -17,16 +17,16 @@ index.html
 
 Copy `apps/_template/` to `apps/<app-slug>/`, then replace every `TODO` before publishing. Keep contact details and policy text specific to that app. Do not put secrets, private feed URLs, user data, credentials, or internal server addresses here: all files in this repository and the published site are public.
 
-## GitHub Pages
+## Repository and GitHub Pages
 
-Recommended repository name: `public-app-pages`. Create it as a **public** repository under the developer's GitHub account, push the `main` branch, then enable **Settings → Pages → Deploy from a branch → main → /(root)**. GitHub Pages uses HTTPS on its `github.io` domain.
+The public repository is [Netanelz525/public-app-pages](https://github.com/Netanelz525/public-app-pages); the `main` branch is pushed. GitHub Pages is not enabled yet because K Podcast's pages still contain draft contact placeholders. Once all `TODO` text is replaced and the pages are reviewed, enable **Settings → Pages → Deploy from a branch → main → /(root)**. GitHub Pages uses HTTPS on its `github.io` domain.
 
-After the repository is created, the K Podcast page paths will follow this pattern (replace `<github-username>` with the actual account name):
+After Pages is enabled and the site is reachable, the K Podcast page URLs are expected to be:
 
-- `https://<github-username>.github.io/public-app-pages/apps/k-podcast/privacy.html`
-- `https://<github-username>.github.io/public-app-pages/apps/k-podcast/support.html`
+- `https://netanelz525.github.io/public-app-pages/apps/k-podcast/privacy.html`
+- `https://netanelz525.github.io/public-app-pages/apps/k-podcast/support.html`
 
-These are URL patterns, not live links. Confirm the final addresses after the repository exists, Pages is enabled, and the site is reachable. Add a custom domain only if one is already owned and configured; it is not needed for this setup.
+These addresses are not live until Pages is enabled and GitHub finishes deploying. Confirm both load over HTTPS before using them in App Store Connect. A custom domain is optional.
 
 ## Publishing checklist
 
